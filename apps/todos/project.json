@@ -1,6 +1,6 @@
 {
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "projectType": "application",
-  "root": "apps/todos",
   "sourceRoot": "apps/todos/src",
   "prefix": "locdt",
   "targets": {
@@ -85,7 +85,7 @@
       "executor": "@nrwl/jest:jest",
       "outputs": ["coverage/apps/todos"],
       "options": {
-        "jestConfig": "apps/todos/jest.config.js",
+        "jestConfig": "apps/todos/jest.config.ts",
         "passWithNoTests": true
       }
     }
